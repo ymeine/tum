@@ -18,8 +18,16 @@ Finally, doing such a project, as any project IMHO, requires a good management o
 
 As you see, everything has to be managed: contents, components, knowledge, etc.
 
-Key requirements
+Key requirements/features
 ====
+
+* Data
+  * Management: [CRUD](http://en.wikipedia.org/wiki/Create,_read,_update_and_delete), data conversions/adaptation (kind of views on data, often called models)
+  * Everything is data: content, part of the applications, more internal things...
+* GUI
+  * Editors: focus on the type of data to edit
+  * Everything must be done and seen in real-time (dynamism)
+* Full logs/traces: everything that has been done must be stored at the moment it has been done, with comprehensive information - it's easier to store every information at the right moment, barely possible to do it after the event (we can still adapt this information later if necessary). Thus, we can access every version, interact with _old_ versions (go back to a previous version for instance, still keeping the one before), view the history
 
 Tools stack
 ====
@@ -43,6 +51,7 @@ Libraries/Framework
 * [Underscore.js]()/[Lo-Dash](http://lodash.com/)
 * [jQuery](http://jquery.com/)/[zepto.js](http://zeptojs.com/)
 * [Backbone.js](http://backbonejs.org/)?: I don't think so, but find an equivalent among the world of [AngularJS](http://angularjs.org/), [Ember.js](http://emberjs.com/), [SproutCore](http://sproutcore.com/), ... See comparison studies.
+  * [Meteor](http://www.meteor.com/) seems really interesting!!
 
 Key models
 ====
